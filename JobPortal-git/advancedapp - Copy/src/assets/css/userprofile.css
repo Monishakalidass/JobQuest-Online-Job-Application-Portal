@@ -1,0 +1,61 @@
+/* UserProfile.css */
+.profileborder
+{
+    background-color:#171e2b;
+  padding: 60px;
+  margin-top: -18px;
+  /* border-radius: 8px; */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* margin-top: 0px;  */
+}
+.profile-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 50vh;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: grey; /* Add this line to set the background color */
+}
+
+.userp {
+  color: rgb(227, 227, 230);
+}
+
+.backuser {
+  margin-top: 120%;
+  border-radius: 20px;
+}
+
+.profile-header {
+  text-align: center;
+}
+
+.profile-content {
+  display: flex;
+  align-items: center;
+}
+
+.profile-picture img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.profile-details {
+  margin-top: 50px;
+  flex-grow: 1;
+}
+
+.profile-details h3 {
+  margin-top: 0;
+}
+
+.profile-details p {
+  margin: 5px 0;
+}

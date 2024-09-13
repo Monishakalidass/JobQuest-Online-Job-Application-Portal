@@ -1,0 +1,176 @@
+/* navbar.css */
+
+.navbar {
+  background-color:#1d2636;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -12px;
+  margin-bottom: 18px;
+  margin-left: -6px;
+  /* margin-right: -10px; */
+}
+.navbar_log
+{
+  width:40%;
+}
+.filter-button {
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 40%;
+  background-color: #10449d;
+  transition: color 0.3s ease; /* Adding transition for smooth effect */
+}
+
+.filter-button:hover {
+  color: #c72b2d; /* Change color on hover */
+}
+
+.filter-button1:hover {
+  color: #27ab43; /* Change color on hover */
+}
+.filter-button1
+{
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: -5px;
+  background-color: #10449d;
+  transition: color 0.3s ease; 
+}
+.navbar-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-item {
+  margin-top: 10px;
+  margin-right: 20px;
+}
+.apply-button
+{
+  background-color: #27ab43;
+}
+.profileborder1 {
+  background-image: url('../assets/images/backgroundjob.jpeg'); /* Add the background image URL */
+  background-size: cover; /* Cover the entire container with the background image */
+  background-repeat: no-repeat; /* Prevent background image from repeating */
+  background-position: center; /* Center the background image */
+  padding: 20px; /* Add padding to provide space for the background image */
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: #fff;
+   margin-left: 600px;
+}
+.logouticon
+{
+ font-size: 42px;
+ margin-right: 12px;
+ color: #fff;
+}
+.logouticon1
+{
+ font-size: 42px;
+ margin-right: 18px;
+ color: #fff;
+}
+.search-form {
+  display: flex;
+}
+
+
+
+/* Unique class names for cards */
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.work-card {
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: calc(33.333% - 20px); /* 3 cards in a row */
+  margin-bottom: 20px;
+  margin-left: 90px;
+  margin-right: 70px;
+}
+
+.work-title
+{
+  margin-bottom: 10px;
+  color: #bd2130;
+  
+}
+.work-company
+{
+  margin-bottom: 10px;
+  color: #231b49;
+
+}
+
+.work-location,
+.work-description {
+  margin-bottom: 10px;
+}
+
+.work-form-input {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+
+.work-form-textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.work-form-button-group {
+  display: flex;
+  justify-content: space-between;
+}
+.apply-button{
+  background-color: #3a3f46;
+  padding: 10px 30px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.work-form-submit-button,
+.work-form-cancel-button {
+  padding: 10px 30px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  background-color: #007bff;
+}
+
+.work-form-submit-button {
+  background-color: #27ab43;
+  color: #fff;
+}
+
+.work-form-submit-button:hover {
+  background-color: #0056b3;
+}
+
+.work-form-cancel-button {
+  background-color: #0c090a;
+  color: #fff;
+}
+
+.work-form-cancel-button:hover {
+  background-color: #bd2130;
+}

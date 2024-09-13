@@ -1,0 +1,28 @@
+.faq{
+    padding: 20px;
+}
+.faq_header{
+    margin-top: 70px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.faq_letter_size{
+    font-size: 20px;
+    margin: 5px;
+    margin-top: 20px;
+    /* font-weight: 200px; */
+}
+.faqbtn2
+{
+    margin-left: 30px;
+    margin-bottom: 8px;
+}
+.faq_caps_size{
+    margin-top: 40px;
+    color: #009579;
+    font-size: 20px;
+    font-weight:bold;
+}
+.faqhead{
+    width: 100%;
+}
